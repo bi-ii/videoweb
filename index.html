@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>FLEX 영상 실습</title>
+ <link rel="stylesheet" href="css/reset.css">
+ <link rel="stylesheet" href="css/style.css">
+ <script src="js/jquery-3.5.1.js"></script>
+ <script src="js/script.js" defer></script>
+ <script src="https://kit.fontawesome.com/267caf4779.js" crossorigin="anonymous"></script>
+ <link rel="shortcut icon" href="./favicon.ico">
+</head>
+<body>
+ <div class="container">
+  <header class="header">
+   <div class="logo">
+    <i class="fa-solid fa-seedling"></i>
+    <p>Green<br>Cosmetic</p>
+   </div>
+   <div class="copyright">
+    2021 DCODELAB<br>
+    ALL RIGHT RESERVED.
+   </div>
+  </header>
+  <section class="content">
+   <ul class="icon">
+    <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+   </ul>
+   <div class="main">
+    <div class="box box1">
+     <div class="inner">
+      <div class="boxtitle">
+       <h2>Eye Shadow</h2>
+       <p>Add depth and dimension to your eyes.</p>
+      </div><!-- bpxtitle end -->
+      <figure>
+       <video src="vids/brush.mp4" muted loop></video>
+      </figure>
+     </div><!-- inner end -->
+    </div><!-- box end -->
+    <div class="box box2">
+     <div class="inner">
+      <div class="boxtitle">
+       <h2>False Eyelashes</h2>
+       <p>Make it bigger and more beautiful than the original eyelashes.</p>
+      </div><!-- bpxtitle end -->
+      <figure>
+       <video src="vids/lash.mp4" muted loop></video>
+      </figure>
+     </div><!-- inner end -->
+    </div><!-- box end -->
+    <div class="box box3">
+     <div class="inner">
+      <div class="boxtitle">
+       <h2>Concealer</h2>
+       <p>Use it to cover blemishes that can't be covered with a nature-friendly concealer.</p>
+      </div><!-- bpxtitle end -->
+      <figure>
+       <video src="vids/컨.mp4" muted loop></video>
+      </figure>
+     </div><!-- inner end -->
+    </div><!-- box end -->
+    <div class="box box4">
+     <div class="inner">
+      <div class="boxtitle">
+       <h2>Lipstick</h2>
+       <p>Use the representative lipstick to do color makeup, And draw other people's attention.</p>
+      </div><!-- bpxtitle end -->
+      <figure>
+       <video src="vids/lip.mp4" muted loop></video>
+      </figure>
+     </div><!-- inner end -->
+    </div><!-- box end -->
+    <!-- page 구역 -->
+     <div class="page page1">
+      <div class="pagetitle">
+       <h1>Eye Shadow</h1>
+       <p>Add depth and dimension to your eyes.</p>
+       <button type="button" class="close">CLOSE</button>
+      </div>
+      <figure>
+       <video src="vids/brush.mp4" autoplay muted loop></video>
+      </figure>
+     </div><!-- 80%*100vh absolute -->
+     <div class="page page2">
+      <div class="pagetitle">
+       <h1>False Eyelashes</h1>
+       <p>Make it bigger and more beautiful than the original eyelashes.</p>
+       <button type="button" class="close">CLOSE</button>
+      </div>
+      <figure>
+       <video src="vids/lash.mp4" autoplay muted loop></video>
+      </figure>
+     </div>
+     <div class="page page3">
+      <div class="pagetitle">
+       <h1>Concealer</h1>
+       <p>Use it to cover blemishes that can't be covered with a nature-friendly concealer.</p>
+       <button type="button" class="close">CLOSE</button>
+      </div>
+      <figure>
+       <video src="vids/컨.mp4" autoplay muted loop></video>
+      </figure>
+     </div>
+     <div class="page page4">
+      <div class="pagetitle">
+       <h1>Lipstick</h1>
+       <p>Use the representative lipstick to do color makeup, And draw other people's attention.</p>
+       <button type="button" class="close">CLOSE</button>
+      </div>
+      <figure>
+       <video src="vids/lip.mp4" autoplay muted loop></video>
+      </figure>
+     </div>
+   </div><!-- main end -->
+  </section>
+ </div><!-- container end -->
+</body>
+</html>
